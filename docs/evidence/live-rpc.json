@@ -1,0 +1,43 @@
+{
+  "time": "2026-09-27T07:36:19.779Z",
+  "chainId": "0xaa36a7",
+  "contracts": [
+    {
+      "name": "STOP",
+      "address": "0xc994fb47592e20d7002f4f41a4e187c3f2705d91",
+      "codeBytes": 1722
+    },
+    {
+      "name": "StopLossHook",
+      "address": "0xa7ce3d0529309b6152a9f72ebe2818606209c0c0",
+      "codeBytes": 13305
+    },
+    {
+      "name": "PoolSwapTest",
+      "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+      "codeBytes": 6950
+    },
+    {
+      "name": "StateView",
+      "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "codeBytes": 3531
+    },
+    {
+      "name": "V4Quoter",
+      "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "codeBytes": 5820
+    },
+    {
+      "name": "PoolManager",
+      "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "codeBytes": 24009
+    }
+  ],
+  "quoteForInputWei": "100000000000000",
+  "quote": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x00000000000000000000000000000000000000000000010d0b42d525e66390f60000000000000000000000000000000000000000000000000000000000019595"
+  },
+  "ui": "STOP price\n0.00000002 ETH\nper 1 STOP\nOpen in stop orders\n0 STOP\n0 active trigger levels\nCurrent pool tick\n177,284\n0.30% pool fee · 60 tick spacing"
+}

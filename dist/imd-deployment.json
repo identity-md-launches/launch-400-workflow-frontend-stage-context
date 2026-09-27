@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "launchId": "69eb7948-b4ef-4d21-96b2-81500f63c7fb",
+  "chainId": 11155111,
+  "sourceCommit": "a866a595f27e6c610198ac45c135ec60b56f77e6",
+  "attestationHash": "789c572232f305d4ba0fa48a944b240217777b45cddddb018259318f34e79f24",
+  "contracts": [
+    {
+      "name": "STOP",
+      "address": "0xc994fb47592e20d7002f4f41a4e187c3f2705d91",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/STOP.json"
+    },
+    {
+      "name": "StopLossHook",
+      "address": "0xa7ce3d0529309b6152a9f72ebe2818606209c0c0",
+      "abiHash": "4506bc54a1fc6fe51a51e0c43b91fe38952b56e6e4866cbcfdaad835e4d5b74d",
+      "abiPath": "abi/StopLossHook.json"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "deploymentBlock": 11791707,
+  "integrations": {
+    "poolSwapTest": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+    "abis": {
+      "poolSwapTest": "abi/PoolSwapTest.json",
+      "stateView": "abi/StateView.json",
+      "quoter": "abi/V4Quoter.json"
+    }
+  },
+  "assets": [
+    {
+      "path": "abi/PoolSwapTest.json",
+      "sha256": "c4a38d17ad51f5589bcb658228abbe9c008964a73fdf65241d422385e5c2caeb"
+    },
+    {
+      "path": "abi/StateView.json",
+      "sha256": "e800cd8e81c7435f71fa438508cd48c6f6ea951d2d2968c05a58f6c63c609915"
+    },
+    {
+      "path": "abi/STOP.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/StopLossHook.json",
+      "sha256": "57764ad4d3c78e1a29ab758a12522b7f3210e764e0bb3156ef18497f60e96490"
+    },
+    {
+      "path": "abi/V4Quoter.json",
+      "sha256": "7cba813e8741b8d3398f69b5f289143d5f94f2fc49ea8ca2533a371182da4175"
+    },
+    {
+      "path": "assets/ccip-DnrOJ2j8.js",
+      "sha256": "5c103859393ecefef917f85addcb7e36174bfb316df8abc9005d87d9b285d4aa"
+    },
+    {
+      "path": "assets/index-Jd9M7b9F.js",
+      "sha256": "895ef7d28148928de52e35568fcdc0cbfd85d0866776a61684d80a5f1013d0ab"
+    },
+    {
+      "path": "assets/index-YeVX89ho.css",
+      "sha256": "ee65889bdf028e2749cbfdccca3f32f72829c82266c7ca7db219f9e3582ed65c"
+    },
+    {
+      "path": "index.html",
+      "sha256": "474ff3b0c6c1aff0ea7be084e5753d9f2ebb870675e4e5b0459bc812ab565d0d"
+    }
+  ]
+}

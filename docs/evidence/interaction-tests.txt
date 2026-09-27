@@ -1,0 +1,25 @@
+
+> stoploss-interface@1.0.0 test
+> playwright test
+
+
+Running 12 tests using 1 worker
+
+(node:137) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:137) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/desk.spec.ts:20:1 › static subpath, disconnected wallet, missing wallet, empty state and accessibility (1.1s)
+  ✓   2 tests/desk.spec.ts:58:1 › unknown chain prompts add-chain with exact handoff parameters; account changes clear orders (968ms)
+  ✓   3 tests/desk.spec.ts:89:1 › minimum amount and tick validation; exact approval, placement, cancel, claim, execute (2.1s)
+  ✓   4 tests/desk.spec.ts:176:1 › native buy has no approval; token sell approves only PoolSwapTest and sends negative exact input (1.8s)
+  ✓   5 tests/desk.spec.ts:235:1 › wallet rejection, simulation failure, price validation and quote invalidation (1.4s)
+  ✓   6 tests/desk.spec.ts:294:1 › absent deployed code and failed events disable dependent actions without showing false zero totals (1.0s)
+  ✓   7 tests/desk.spec.ts:322:1 › tampered implementation ABI stops boot before any transaction control (382ms)
+  ✓   8 tests/desk.spec.ts:342:1 › keyboard dialog focus and 200% text enlargement (754ms)
+  ✓   9 tests/desk.spec.ts:379:1 › connected desktop/mobile screenshots, rendered contrast and dialog accessibility (1.4s)
+  ✓  10 tests/math.spec.ts:4:1 › base-unit precision, amount boundaries and signed tick orientation (9ms)
+  ✓  11 tests/math.spec.ts:15:1 › sqrt price limits bound ETH per STOP in the correct direction (3ms)
+  ✓  12 tests/math.spec.ts:26:1 › event discovery reduces RPC ranges and replaces reorganized recent logs (12ms)
+
+  12 passed (13.4s)

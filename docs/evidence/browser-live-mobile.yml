@@ -1,0 +1,168 @@
+- generic [ref=f3e2]:
+  - link "Skip to content" [ref=f3e8] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e9]:
+    - link "Stoploss home" [ref=f3e10] [cursor=pointer]:
+      - /url: "#"
+      - generic [aria-hidden] [ref=f3e11]: S
+      - text: Stoploss
+      - generic [ref=f3e12]: .
+    - navigation "Primary" [ref=f3e13]:
+      - link "My orders" [ref=f3e14] [cursor=pointer]:
+        - /url: "#orders"
+      - link "How it works" [ref=f3e15] [cursor=pointer]:
+        - /url: "#about"
+    - button "Connect wallet" [active] [ref=f3e18] [cursor=pointer]
+  - main [ref=f3e19]:
+    - generic [ref=f3e21]:
+      - paragraph [ref=f3e22]: Stop-loss orders · Sepolia testnet
+      - heading "A little more control. A clear exit." [level=1] [ref=f3e23]: A little more control.A clear exit.
+      - paragraph [ref=f3e24]: Set a trigger. Escrow STOP. Claim the proceeds when your order executes.
+    - generic [ref=f3e29]:
+      - generic [ref=f3e31]: Pool connected · Block 11,791,885
+      - button "Refresh data" [ref=f3e32] [cursor=pointer]:
+        - text: Refresh data
+        - generic [aria-hidden] [ref=f3e33]: ↻
+    - alert [ref=f3e34]: No browser wallet found. Install an Ethereum wallet or open this page in its browser, then reload.
+    - region "Pool overview" [ref=f3e35]:
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]: STOP price
+        - strong [ref=f3e38]: 0.00000002 ETH
+        - generic [ref=f3e39]: per 1 STOP
+      - generic [ref=f3e40]:
+        - generic [ref=f3e41]: Open in stop orders
+        - strong [ref=f3e42]: 0 STOP
+        - generic [ref=f3e43]: 0 active trigger levels
+      - generic [ref=f3e44]:
+        - generic [ref=f3e45]: Current pool tick
+        - strong [ref=f3e46]: 177,284
+        - generic [ref=f3e47]: 0.30% pool fee · 60 tick spacing
+    - generic [ref=f3e48]:
+      - region [ref=f3e49]:
+        - generic [ref=f3e50]:
+          - generic [ref=f3e51]:
+            - paragraph [ref=f3e52]: 01 / Set your exit
+            - heading "Place a stop order" [level=2] [ref=f3e53]
+          - generic [aria-hidden] [ref=f3e54]: S
+        - paragraph [ref=f3e55]: Sell STOP when its ETH price falls to your trigger.
+        - generic [ref=f3e56]:
+          - generic [ref=f3e57]:
+            - generic [ref=f3e58]: Amount to escrow
+            - generic [ref=f3e59]: "Balance: — STOP"
+          - generic [ref=f3e60]:
+            - textbox "Amount to escrow" [ref=f3e61]:
+              - /placeholder: "100.00"
+            - generic [ref=f3e62]: STOP
+          - paragraph [ref=f3e63]: Minimum 1 STOP. Approval and placement are separate steps.
+          - generic [ref=f3e64]:
+            - generic [ref=f3e65]: Trigger tick
+            - button "Use next level" [ref=f3e66] [cursor=pointer]
+          - textbox "Trigger tick" [ref=f3e67]:
+            - /placeholder: e.g. 600
+          - paragraph [ref=f3e68]: Multiple of 60, above the current tick. Higher tick = lower STOP price.
+          - generic [ref=f3e69]:
+            - generic [ref=f3e70]: Trigger price
+            - strong [ref=f3e71]: Choose a trigger tick
+          - generic [ref=f3e72]:
+            - button "Approve STOP" [disabled] [ref=f3e73]:
+              - generic [aria-hidden] [ref=f3e74]: "1"
+              - text: Approve STOP
+            - button "Place order" [disabled] [ref=f3e75]:
+              - generic [aria-hidden] [ref=f3e76]: "2"
+              - text: Place order
+              - generic [aria-hidden] [ref=f3e77]: ↗
+          - paragraph [ref=f3e78]: Connect your wallet to place orders and swap.
+        - generic [ref=f3e79]:
+          - strong [ref=f3e80]: Your tokens stay in the hook until you cancel or claim.
+          - paragraph [ref=f3e81]: Execution may leave unsold STOP. Proceeds and unsold tokens are claimed together; tiny rounding amounts stay in the hook.
+      - region [ref=f3e82]:
+        - generic [ref=f3e83]:
+          - generic [ref=f3e84]:
+            - paragraph [ref=f3e85]: 02 / Trade the pool
+            - heading "Swap" [level=2] [ref=f3e86]
+          - generic [ref=f3e87]: ETH / STOP
+        - generic "Swap direction" [ref=f3e88]:
+          - button "Buy STOP" [pressed] [ref=f3e89] [cursor=pointer]
+          - button "Sell STOP" [ref=f3e90] [cursor=pointer]
+        - generic [ref=f3e91]:
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]: You pay
+            - generic [ref=f3e94]: "Balance: —"
+          - generic [ref=f3e95]:
+            - textbox "You pay" [ref=f3e96]:
+              - /placeholder: "0.01"
+            - generic [ref=f3e97]: ETH
+          - generic [aria-hidden] [ref=f3e98]: ↓
+          - generic [ref=f3e99]:
+            - generic [ref=f3e100]: Estimated receive
+            - strong [ref=f3e101]: — STOP
+          - generic [ref=f3e102]:
+            - generic [ref=f3e103]: Price tolerance
+            - generic [ref=f3e104]:
+              - textbox "Price tolerance" [ref=f3e105]: "0.5"
+              - generic [ref=f3e106]: "%"
+          - paragraph [ref=f3e107]: 0.01–5%. Limits the execution price, not a guaranteed minimum received. Partial fills are possible on chain.
+          - button "Get quote" [disabled] [ref=f3e108]:
+            - text: Get quote
+            - generic [aria-hidden] [ref=f3e109]: ↗
+        - paragraph [ref=f3e110]: Connect your wallet to quote and swap. Sells can execute up to five stop levels; the seller pays that gas.
+        - generic [ref=f3e111]:
+          - text: Route
+          - link "PoolSwapTest" [ref=f3e112] [cursor=pointer]:
+            - /url: https://sepolia.etherscan.io/address/0x9b6b46e2c869aa39918db7f52f5557fe577b6eee
+            - text: PoolSwapTest ↗
+    - region [ref=f3e113]:
+      - generic [ref=f3e114]:
+        - generic [ref=f3e115]:
+          - paragraph [ref=f3e116]: The order book
+          - heading "Open STOP by trigger" [level=2] [ref=f3e117]
+        - button "Execute up to 5 levels" [disabled] [ref=f3e118]:
+          - text: Execute up to 5 levels
+          - generic [aria-hidden] [ref=f3e119]: ↗
+      - paragraph [ref=f3e120]: Levels are discovered from OrderPlaced events and checked against live openAmount. Skipped levels remain open and cancellable.
+      - generic [ref=f3e121]:
+        - generic [aria-hidden] [ref=f3e122]: ≋
+        - strong [ref=f3e123]: No open levels yet
+        - paragraph [ref=f3e124]: Place an order to create a trigger level.
+    - region [ref=f3e125]:
+      - generic [ref=f3e127]:
+        - paragraph [ref=f3e128]: 03 / Stay in control
+        - heading "My orders" [level=2] [ref=f3e129]
+      - generic [ref=f3e130]:
+        - generic [aria-hidden] [ref=f3e131]: ↳
+        - strong [ref=f3e132]: Your orders, in one place.
+        - paragraph [ref=f3e133]: Connect your wallet to see open orders and claimable proceeds.
+        - button "Connect wallet" [ref=f3e134] [cursor=pointer]:
+          - text: Connect wallet
+          - generic [aria-hidden] [ref=f3e135]: ↗
+      - paragraph [ref=f3e136]: State checked at block 11,791,885. Refreshes every 30 seconds; transactions check current eligibility.
+    - generic [ref=f3e137]:
+      - generic [ref=f3e138]:
+        - paragraph [ref=f3e139]: Know your order
+        - heading "Automatic execution. You make the final claim." [level=2] [ref=f3e140]: Automatic execution.You make the final claim.
+        - paragraph [ref=f3e141]: A stop is a trigger, not a guaranteed sale price. No keeper or backend is required.
+      - generic [ref=f3e142]:
+        - generic [ref=f3e143]:
+          - generic [ref=f3e144]: "01"
+          - paragraph [ref=f3e145]:
+            - strong [ref=f3e146]: Sells move the tick up.
+            - text: A sell crossing your trigger can execute its bucket. Buys never trigger stop orders.
+        - generic [ref=f3e147]:
+          - generic [ref=f3e148]: "02"
+          - paragraph [ref=f3e149]:
+            - strong [ref=f3e150]: Each level shares an epoch.
+            - text: Up to five levels execute per sell. Anyone can execute eligible remaining levels. The limit is 1,200 ticks beyond the trigger, about 11% lower in ETH price.
+        - generic [ref=f3e151]:
+          - generic [ref=f3e152]: "03"
+          - paragraph [ref=f3e153]:
+            - strong [ref=f3e154]: Claim both assets.
+            - text: ETH proceeds and unsold STOP are split by your share of the epoch, rounded down. There is no hook fee or administrator.
+    - group [ref=f3e155]:
+      - generic "Deployment & contract details" [ref=f3e156] [cursor=pointer]
+    - status
+  - contentinfo [ref=f3e157]:
+    - link "Stoploss ." [ref=f3e158] [cursor=pointer]:
+      - /url: "#"
+      - text: Stoploss
+      - generic [ref=f3e159]: .
+    - generic [ref=f3e160]: A permissionless experiment on Sepolia.

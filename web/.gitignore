@@ -1,0 +1,11 @@
+# Explicit ignore-file path budget: web/.gitignore only.
+# These basename patterns apply at every nesting level under web/.
+node_modules/
+.vite/
+.cache/
+.npm/
+.pnpm-store/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo

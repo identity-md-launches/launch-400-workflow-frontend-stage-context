@@ -1,0 +1,67 @@
+IdentityMD frontend submission audit
+
+Workspace git add: BLOCKED (.git/index.lock: read-only file system).
+No protected repository metadata was modified.
+Candidate Git metadata: /tmp/stoploss-submission-git (temporary validation only).
+Parent: a866a595f27e6c610198ac45c135ec60b56f77e6
+Allowed paths: web/**, dist/**, docs/**; explicit single ignore-file budget web/.gitignore.
+Complete submission bundle relative to the deployed parent, including this record: checked below 8388608 bytes.
+The pinned deployed commit is an explicit bundle prerequisite.
+An all-history bundle could not be formed: the supplied partial clone omits two historical objects.
+The complete current candidate tree and all changed source/export/evidence bytes are present.
+No submodule entries, tracked dependencies, cache directories, tarballs, or packaging archives added.
+Source, lockfile, runtime ABI assets, static export and validation evidence retained.
+Bundle is held under /tmp for measurement and is not duplicated in the deliverable.
+
+Candidate paths:
+dist/abi/PoolSwapTest.json
+dist/abi/STOP.json
+dist/abi/StateView.json
+dist/abi/StopLossHook.json
+dist/abi/V4Quoter.json
+dist/assets/ccip-DnrOJ2j8.js
+dist/assets/index-Jd9M7b9F.js
+dist/assets/index-YeVX89ho.css
+dist/imd-deployment.json
+dist/index.html
+docs/DESIGN.md
+docs/evidence/approval-review-focus.png
+docs/evidence/browser-console.txt
+docs/evidence/browser-live-mobile.yml
+docs/evidence/build.txt
+docs/evidence/desktop-connected.png
+docs/evidence/desktop-live.png
+docs/evidence/development-preview.txt
+docs/evidence/export-verification.txt
+docs/evidence/forced-colors-focus.png
+docs/evidence/interaction-tests.txt
+docs/evidence/live-rpc.json
+docs/evidence/mobile-connected.png
+docs/evidence/mobile-live.png
+docs/evidence/rendered-checks.json
+docs/evidence/submission-audit.txt
+docs/evidence/typecheck.txt
+docs/frontend-validation.md
+web/.gitignore
+web/README.md
+web/config/deployment-handoff.json
+web/config/integrations.json
+web/config/network.json
+web/index.html
+web/package-lock.json
+web/package.json
+web/playwright.config.ts
+web/scripts/canonical.mjs
+web/scripts/export.mjs
+web/scripts/serve.mjs
+web/scripts/verify-export.mjs
+web/src/App.tsx
+web/src/chain.ts
+web/src/config.ts
+web/src/main.tsx
+web/src/styles.css
+web/tests/desk.spec.ts
+web/tests/fixture.ts
+web/tests/math.spec.ts
+web/tsconfig.json
+web/vite.config.ts

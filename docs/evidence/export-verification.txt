@@ -1,0 +1,20 @@
+
+> stoploss-interface@1.0.0 verify:export
+> node scripts/verify-export.mjs
+
+{
+  "result": "PASS",
+  "sourceCommit": "a866a595f27e6c610198ac45c135ec60b56f77e6",
+  "contracts": 2,
+  "assets": 9,
+  "exportBytes": 545885,
+  "checks": [
+    "exact handoff identity",
+    "unchanged network and walletAddChain",
+    "valid centralized addresses",
+    "pinned raw ABIs and canonical Keccak",
+    "complete SHA-256 inventory",
+    "relative asset base",
+    "limits and no tracked caches"
+  ]
+}

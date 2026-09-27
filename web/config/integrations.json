@@ -1,0 +1,4 @@
+{
+  "poolSwapTest": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+  "provenance": "PoolSwapTest address explicitly specified in the approved workflow; overrides the generic Universal Router example. Other Uniswap addresses come unchanged from network.json."
+}

@@ -1,0 +1,65 @@
+{
+  "environment": "Chromium desktop; wallet and RPC mocked",
+  "widths": [
+    {
+      "viewport": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "viewport": 820,
+      "scrollWidth": 820
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390
+    },
+    {
+      "viewport": 320,
+      "scrollWidth": 320
+    }
+  ],
+  "axeViolations": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "renderedColors": [
+    {
+      "selector": "body",
+      "foreground": "rgb(25, 42, 33)",
+      "background": "rgb(245, 245, 238)",
+      "contrast": 13.75
+    },
+    {
+      "selector": ".panel .hint",
+      "foreground": "rgb(93, 104, 95)",
+      "background": "rgb(255, 254, 249)",
+      "contrast": 5.76
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(93, 104, 95)",
+      "background": "rgb(238, 239, 230)",
+      "contrast": 5.02
+    },
+    {
+      "selector": ".site-header .brand",
+      "foreground": "rgb(246, 248, 237)",
+      "background": "rgb(20, 40, 30)",
+      "contrast": 14.47
+    },
+    {
+      "selector": ".pill",
+      "foreground": "rgb(25, 42, 33)",
+      "background": "rgb(229, 235, 215)",
+      "contrast": 12.33
+    },
+    {
+      "selector": ".field-heading label",
+      "foreground": "rgb(25, 42, 33)",
+      "background": "rgb(255, 254, 249)",
+      "contrast": 14.91
+    }
+  ],
+  "reducedMotion": "transitionDuration 0s",
+  "keyboard": "Dialog entry, Escape exit and focus restoration tested",
+  "nativeZoom": "Not performed; 200% CSS text enlargement tested separately"
+}
